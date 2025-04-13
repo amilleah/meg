@@ -1,0 +1,7 @@
+Trial_ID,group,condition,grammaticality,match_mismatch,prime,target,jitter,correct_response,floc_test
+1,0,0,0,mismatch,small yellow kite,large yellow kite,750,1,0
+2,0,0,0,match,golden tiny key,golden tiny key,700,2,0
+3,0,0,0,match,woods masks caps,woods masks caps,650,2,0
+4,0,0,0,mismatch,pink candy round,pink candy sweet,700,1,0
+5,0,0,0,match,ladder wooden heavy,ladder wooden heavy,600,2,0
+6,0,0,0,mismatch,dreams cats kits,dreams cats lips,650,1,0

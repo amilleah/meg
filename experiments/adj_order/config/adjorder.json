@@ -1,0 +1,73 @@
+{
+    "experiment": {
+      "name": "ADJORDER",
+      "description": "An experiment on adjective ordering preferences.",
+      "dir_path": "/Volumes/server/NEUROLING/Projects/ColorAdj/",
+      "stimuli": {
+        "full": "stimuli.csv",
+        "practice": "practice.csv"
+      }
+    },
+    "blocks": {
+    "count": 6,
+    "trials_per_block": 40,
+    "shuffle_trials": true
+    },
+    "practice": {
+      "enabled": false
+    },
+    "display": {
+      "toggle_diode": {"enabled": true},
+      "fullscreen": false,
+      "background_color": [127, 127, 127],
+      "text_color": [255, 255, 255]
+    },
+    "send_triggers": {
+      "enabled": true,
+      "map": {
+        "RO": "ch160",
+        "WO": "ch161",
+        "PSvio": "ch162",
+        "RList": "ch163",
+        "URList": "ch164"
+      },
+      "condition_map": {
+            "1": "RO",
+            "2": "WO",
+            "3": "PSvio",
+            "4": "RList",
+            "5": "URList"
+        }
+    },
+    "timing": {
+      "fixation_ON_ms": 200,
+      "fixation_OFF_ms": 200,
+      "prime_ON_ms": 300,
+      "prime_OFF_ms": 500,
+      "target_ON_ms": 300,
+      "target_OFF": "Until Response",
+      "jitter_min": 600,
+      "jitter_max": 800,
+      "use_frame_timing": true
+    },
+    "text": {
+      "setup": "Please be patient as we set up the experiment...",
+      "practice": "Welcome to the practice session! \n\nThis is a matching task between two strings of words. \nThey will be presented very quickly one after the other. \n\nYour task is to determine if the two strings of words are identical or different from one another. \n\nPress '1' with your LEFT MIDDLE FINGER if they are DIFFERENT, \nPress '2' with your LEFT INDEX FINGER if they are the SAME. \n\nThis practice session will be brief. \nWhen you are ready, press either '1' or '2' to continue.",
+      "instructions": "This is a matching task between two strings of words. They will be presented very quickly one after the other. \n\nYour task is to determine if the two strings of words are identical or different from one another. \n\nPress '1' with your left middle finger if they are both DIFFERENT, and '2' with your left index finger if they are both the SAME. \nPlease use your left middle finger to press '1' and your left index finger to press '2'. \n\nThe experiment will take approximately 25-30 minutes in total. You will be able to take breaks at set times during the experiment. \nWhen you are ready, press either '1' or '2' to continue.",
+      "end": "The experiment is now over! Thank you for your participation! \nPlease sit tight while we save the recording..."
+    },
+    "keys": {
+      "setup_proceed": ["s"],
+      "instruction_proceed": ["1", "2"],
+      "response": ["1", "2", "p", "q"],
+      "end_proceed": ["s"]
+    },
+    "debug": {
+      "verbose": true,
+      "auto_respond": false
+    },
+    "log": [
+    "Trial_ID", "group", "condition", "grammaticality",
+    "match_mismatch", "prime", "target", "floc_test"
+    ]
+  }

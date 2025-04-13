@@ -1,0 +1,513 @@
+﻿set,cond_tag,trial_item,item_n,condition_label,comp,condition,words,struc,target_frame,prime,target,match_manip,string_length
+1,a,1a,1,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the color green,the color green,SAME,15
+1,b,1b,2,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the green color,the color green,DIFF,15
+1,c ,1c ,3,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the shade black,the color green,DIFF,15
+1,d,1d,4,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the black shade,the color green,DIFF,15
+1,e,1e,5,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan beige green,tan beige green,SAME,15
+1,f,1f,6,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan green beige,tan beige green,DIFF,15
+1,g,1g,7,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan white black,tan beige green,DIFF,15
+1,h,1h,8,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan black white,tan beige green,DIFF,15
+2,a,2a,9,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the green color,the green color,SAME,15
+2,b,2b,10,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the color green,the green color,DIFF,15
+2,c ,2c ,11,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the black shade,the green color,DIFF,15
+2,d,2d,12,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the shade black,the green color,DIFF,15
+2,e,2e,13,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue green beige,hue green beige,SAME,15
+2,f,2f,14,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue beige green,hue green beige,DIFF,15
+2,g,2g,15,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue black white,hue green beige,DIFF,15
+2,h,2h,16,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue white black,hue green beige,DIFF,15
+3,a,3a,17,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the shade green,the shade green,SAME,15
+3,b,3b,18,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the green shade,the shade green,DIFF,15
+3,c ,3c ,19,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the color black,the shade green,DIFF,15
+3,d,3d,20,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the black color,the shade green,DIFF,15
+3,e,3e,21,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan white green,tan white green,SAME,15
+3,f,3f,22,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan green white,tan white green,DIFF,15
+3,g,3g,23,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan beige black,tan white green,DIFF,15
+3,h,3h,24,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan black beige,tan white green,DIFF,15
+4,a,4a,25,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the green shade,the green shade,SAME,15
+4,b,4b,26,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the shade green,the green shade,DIFF,15
+4,c ,4c ,27,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the black color,the green shade,DIFF,15
+4,d,4d,28,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the color black,the green shade,DIFF,15
+4,e,4e,29,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue green white,hue green white,SAME,15
+4,f,4f,30,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue white green,hue green white,DIFF,15
+4,g,4g,31,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue black beige,hue green white,DIFF,15
+4,h,4h,32,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue beige black,hue green white,DIFF,15
+5,a,5a,33,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the color black,the color black,SAME,15
+5,b,5b,34,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the black color,the color black,DIFF,15
+5,c ,5c ,35,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the shade green,the color black,DIFF,15
+5,d,5d,36,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the green shade,the color black,DIFF,15
+5,e,5e,37,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan beige black,tan beige black,SAME,15
+5,f,5f,38,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan black beige,tan beige black,DIFF,15
+5,g,5g,39,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan white green,tan beige black,DIFF,15
+5,h,5h,40,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan green white,tan beige black,DIFF,15
+6,a,6a,41,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the black color,the black color,SAME,15
+6,b,6b,42,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the color black,the black color,DIFF,15
+6,c ,6c ,43,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the green shade,the black color,DIFF,15
+6,d,6d,44,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the shade green,the black color,DIFF,15
+6,e,6e,45,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue black beige,hue black beige,SAME,15
+6,f,6f,46,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue beige black,hue black beige,DIFF,15
+6,g,6g,47,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue green white,hue black beige,DIFF,15
+6,h,6h,48,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue white green,hue black beige,DIFF,15
+7,a,7a,49,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the shade black,the shade black,SAME,15
+7,b,7b,50,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the black shade,the shade black,DIFF,15
+7,c ,7c ,51,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the color green,the shade black,DIFF,15
+7,d,7d,52,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the green color,the shade black,DIFF,15
+7,e,7e,53,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan white black,tan white black,SAME,15
+7,f,7f,54,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan black white,tan white black,DIFF,15
+7,g,7g,55,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan beige green,tan white black,DIFF,15
+7,h,7h,56,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan green beige,tan white black,DIFF,15
+8,a,8a,57,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the black shade,the black shade,SAME,15
+8,b,8b,58,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the shade black,the black shade,DIFF,15
+8,c ,8c ,59,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the green color,the black shade,DIFF,15
+8,d,8d,60,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the color green,the black shade,DIFF,15
+8,e,8e,61,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue black white,hue black white,SAME,15
+8,f,8f,62,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue white black,hue black white,DIFF,15
+8,g,8g,63,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue green beige,hue black white,DIFF,15
+8,h,8h,64,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue beige green,hue black white,DIFF,15
+9,a,9a,65,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tone blue,the tone blue,SAME,13
+9,b,9b,66,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the blue tone,the tone blue,DIFF,13
+9,c ,9c ,67,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tint grey,the tone blue,DIFF,13
+9,d,9d,68,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the grey tint,the tone blue,DIFF,13
+9,e,9e,69,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan pink blue,tan pink blue,SAME,13
+9,f,9f,70,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan blue pink,tan pink blue,DIFF,13
+9,g,9g,71,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan gold grey,tan pink blue,DIFF,13
+9,h,9h,72,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan grey gold,tan pink blue,DIFF,13
+10,a,10a,73,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the blue tone,the blue tone,SAME,13
+10,b,10b,74,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tone blue,the blue tone,DIFF,13
+10,c ,10c ,75,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the grey tint,the blue tone,DIFF,13
+10,d,10d,76,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tint grey,the blue tone,DIFF,13
+10,e,10e,77,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue blue pink,hue blue pink,SAME,13
+10,f,10f,78,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue pink blue,hue blue pink,DIFF,13
+10,g,10g,79,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue grey gold,hue blue pink,DIFF,13
+10,h,10h,80,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue gold grey,hue blue pink,DIFF,13
+11,a,11a,81,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tint blue,the tint blue,SAME,13
+11,b,11b,82,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the blue tint,the tint blue,DIFF,13
+11,c ,11c ,83,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tone grey,the tint blue,DIFF,13
+11,d,11d,84,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the grey tone,the tint blue,DIFF,13
+11,e,11e,85,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan gold blue,tan gold blue,SAME,13
+11,f,11f,86,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan blue gold,tan gold blue,DIFF,13
+11,g,11g,87,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan pink grey,tan gold blue,DIFF,13
+11,h,11h,88,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan grey pink,tan gold blue,DIFF,13
+12,a,12a,89,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the blue tint,the blue tint,SAME,13
+12,b,12b,90,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tint blue,the blue tint,DIFF,13
+12,c ,12c ,91,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the grey tone,the blue tint,DIFF,13
+12,d,12d,92,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tone grey,the blue tint,DIFF,13
+12,e,12e,93,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue blue gold,hue blue gold,SAME,13
+12,f,12f,94,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue gold blue,hue blue gold,DIFF,13
+12,g,12g,95,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue grey pink,hue blue gold,DIFF,13
+12,h,12h,96,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue pink grey,hue blue gold,DIFF,13
+13,a,13a,97,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tone grey,the tone grey,SAME,13
+13,b,13b,98,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the grey tone,the tone grey,DIFF,13
+13,c ,13c ,99,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tint blue,the tone grey,DIFF,13
+13,d,13d,100,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the blue tint,the tone grey,DIFF,13
+13,e,13e,101,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan pink grey,tan pink grey,SAME,13
+13,f,13f,102,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan grey pink,tan pink grey,DIFF,13
+13,g,13g,103,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan gold blue,tan pink grey,DIFF,13
+13,h,13h,104,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan blue gold,tan pink grey,DIFF,13
+14,a,14a,105,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the grey tone,the grey tone,SAME,13
+14,b,14b,106,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tone grey,the grey tone,DIFF,13
+14,c ,14c ,107,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the blue tint,the grey tone,DIFF,13
+14,d,14d,108,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tint blue,the grey tone,DIFF,13
+14,e,14e,109,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue grey pink,hue grey pink,SAME,13
+14,f,14f,110,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue pink grey,hue grey pink,DIFF,13
+14,g,14g,111,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue blue gold,hue grey pink,DIFF,13
+14,h,14h,112,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue gold blue,hue grey pink,DIFF,13
+15,a,15a,113,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tint grey,the tint grey,SAME,13
+15,b,15b,114,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the grey tint,the tint grey,DIFF,13
+15,c ,15c ,115,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tone blue,the tint grey,DIFF,13
+15,d,15d,116,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the blue tone,the tint grey,DIFF,13
+15,e,15e,117,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan gold grey,tan gold grey,SAME,13
+15,f,15f,118,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan grey gold,tan gold grey,DIFF,13
+15,g,15g,119,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan pink blue,tan gold grey,DIFF,13
+15,h,15h,120,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan blue pink,tan gold grey,DIFF,13
+16,a,16a,121,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the grey tint,the grey tint,SAME,13
+16,b,16b,122,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tint grey,the grey tint,DIFF,13
+16,c ,16c ,123,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the blue tone,the grey tint,DIFF,13
+16,d,16d,124,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tone blue,the grey tint,DIFF,13
+16,e,16e,125,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue grey gold,hue grey gold,SAME,13
+16,f,16f,126,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue gold grey,hue grey gold,DIFF,13
+16,g,16g,127,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue blue pink,hue grey gold,DIFF,13
+16,h,16h,128,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue pink blue,hue grey gold,DIFF,13
+17,a,17a,129,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the color beige,the color beige,SAME,15
+17,b,17b,130,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the beige color,the color beige,DIFF,15
+17,c ,17c ,131,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the shade white,the color beige,DIFF,15
+17,d,17d,132,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the white shade,the color beige,DIFF,15
+17,e,17e,133,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan green beige,tan green beige,SAME,15
+17,f,17f,134,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan beige green,tan green beige,DIFF,15
+17,g,17g,135,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan black white,tan green beige,DIFF,15
+17,h,17h,136,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan white black,tan green beige,DIFF,15
+18,a,18a,137,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the beige color,the beige color,SAME,15
+18,b,18b,138,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the color beige,the beige color,DIFF,15
+18,c ,18c ,139,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the white shade,the beige color,DIFF,15
+18,d,18d,140,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the shade white,the beige color,DIFF,15
+18,e,18e,141,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue beige green,hue beige green,SAME,15
+18,f,18f,142,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue green beige,hue beige green,DIFF,15
+18,g,18g,143,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue white black,hue beige green,DIFF,15
+18,h,18h,144,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue black white,hue beige green,DIFF,15
+19,a,19a,145,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the shade beige,the shade beige,SAME,15
+19,b,19b,146,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the beige shade,the shade beige,DIFF,15
+19,c ,19c ,147,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the color white,the shade beige,DIFF,15
+19,d,19d,148,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the white color,the shade beige,DIFF,15
+19,e,19e,149,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan black beige,tan black beige,SAME,15
+19,f,19f,150,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan beige black,tan black beige,DIFF,15
+19,g,19g,151,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan green white,tan black beige,DIFF,15
+19,h,19h,152,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan white green,tan black beige,DIFF,15
+20,a,20a,153,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the beige shade,the beige shade,SAME,15
+20,b,20b,154,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the shade beige,the beige shade,DIFF,15
+20,c ,20c ,155,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the white color,the beige shade,DIFF,15
+20,d,20d,156,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the color white,the beige shade,DIFF,15
+20,e,20e,157,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue beige black,hue beige black,SAME,15
+20,f,20f,158,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue black beige,hue beige black,DIFF,15
+20,g,20g,159,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue white green,hue beige black,DIFF,15
+20,h,20h,160,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue green white,hue beige black,DIFF,15
+21,a,21a,161,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the color white,the color white,SAME,15
+21,b,21b,162,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the white color,the color white,DIFF,15
+21,c ,21c ,163,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the shade beige,the color white,DIFF,15
+21,d,21d,164,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the beige shade,the color white,DIFF,15
+21,e,21e,165,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan green white,tan green white,SAME,15
+21,f,21f,166,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan white green,tan green white,DIFF,15
+21,g,21g,167,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan black beige,tan green white,DIFF,15
+21,h,21h,168,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan beige black,tan green white,DIFF,15
+22,a,22a,169,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the white color,the white color,SAME,15
+22,b,22b,170,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the color white,the white color,DIFF,15
+22,c ,22c ,171,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the beige shade,the white color,DIFF,15
+22,d,22d,172,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the shade beige,the white color,DIFF,15
+22,e,22e,173,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue white green,hue white green,SAME,15
+22,f,22f,174,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue green white,hue white green,DIFF,15
+22,g,22g,175,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue beige black,hue white green,DIFF,15
+22,h,22h,176,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue black beige,hue white green,DIFF,15
+23,a,23a,177,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the shade white,the shade white,SAME,15
+23,b,23b,178,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the white shade,the shade white,DIFF,15
+23,c ,23c ,179,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the color beige,the shade white,DIFF,15
+23,d,23d,180,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the beige color,the shade white,DIFF,15
+23,e,23e,181,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan black white,tan black white,SAME,15
+23,f,23f,182,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan white black,tan black white,DIFF,15
+23,g,23g,183,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan green beige,tan black white,DIFF,15
+23,h,23h,184,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan beige green,tan black white,DIFF,15
+24,a,24a,185,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the white shade,the white shade,SAME,15
+24,b,24b,186,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the shade white,the white shade,DIFF,15
+24,c ,24c ,187,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the beige color,the white shade,DIFF,15
+24,d,24d,188,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the color beige,the white shade,DIFF,15
+24,e,24e,189,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue white black,hue white black,SAME,15
+24,f,24f,190,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue black white,hue white black,DIFF,15
+24,g,24g,191,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue beige green,hue white black,DIFF,15
+24,h,24h,192,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue green beige,hue white black,DIFF,15
+25,a,25a,193,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tone pink,the tone pink,SAME,13
+25,b,25b,194,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the pink tone,the tone pink,DIFF,13
+25,c ,25c ,195,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tint gold,the tone pink,DIFF,13
+25,d,25d,196,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the gold tint,the tone pink,DIFF,13
+25,e,25e,197,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan blue pink,tan blue pink,SAME,13
+25,f,25f,198,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan pink blue,tan blue pink,DIFF,13
+25,g,25g,199,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan grey gold,tan blue pink,DIFF,13
+25,h,25h,200,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan gold grey,tan blue pink,DIFF,13
+26,a,26a,201,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the pink tone,the pink tone,SAME,13
+26,b,26b,202,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tone pink,the pink tone,DIFF,13
+26,c ,26c ,203,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the gold tint,the pink tone,DIFF,13
+26,d,26d,204,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tint gold,the pink tone,DIFF,13
+26,e,26e,205,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue pink blue,hue pink blue,SAME,13
+26,f,26f,206,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue blue pink,hue pink blue,DIFF,13
+26,g,26g,207,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue gold grey,hue pink blue,DIFF,13
+26,h,26h,208,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue grey gold,hue pink blue,DIFF,13
+27,a,27a,209,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tint pink,the tint pink,SAME,13
+27,b,27b,210,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the pink tint,the tint pink,DIFF,13
+27,c ,27c ,211,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tone gold,the tint pink,DIFF,13
+27,d,27d,212,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the gold tone,the tint pink,DIFF,13
+27,e,27e,213,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan grey pink,tan grey pink,SAME,13
+27,f,27f,214,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan pink grey,tan grey pink,DIFF,13
+27,g,27g,215,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan blue gold,tan grey pink,DIFF,13
+27,h,27h,216,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan gold blue,tan grey pink,DIFF,13
+28,a,28a,217,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the pink tint,the pink tint,SAME,13
+28,b,28b,218,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tint pink,the pink tint,DIFF,13
+28,c ,28c ,219,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the gold tone,the pink tint,DIFF,13
+28,d,28d,220,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tone gold,the pink tint,DIFF,13
+28,e,28e,221,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue pink grey,hue pink grey,SAME,13
+28,f,28f,222,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue grey pink,hue pink grey,DIFF,13
+28,g,28g,223,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue gold blue,hue pink grey,DIFF,13
+28,h,28h,224,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue blue gold,hue pink grey,DIFF,13
+29,a,29a,225,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tone gold,the tone gold,SAME,13
+29,b,29b,226,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the gold tone,the tone gold,DIFF,13
+29,c ,29c ,227,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tint pink,the tone gold,DIFF,13
+29,d,29d,228,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the pink tint,the tone gold,DIFF,13
+29,e,29e,229,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan blue gold,tan blue gold,SAME,13
+29,f,29f,230,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan gold blue,tan blue gold,DIFF,13
+29,g,29g,231,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan grey pink,tan blue gold,DIFF,13
+29,h,29h,232,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan pink grey,tan blue gold,DIFF,13
+30,a,30a,233,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the gold tone,the gold tone,SAME,13
+30,b,30b,234,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tone gold,the gold tone,DIFF,13
+30,c ,30c ,235,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the pink tint,the gold tone,DIFF,13
+30,d,30d,236,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tint pink,the gold tone,DIFF,13
+30,e,30e,237,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue gold blue,hue gold blue,SAME,13
+30,f,30f,238,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue blue gold,hue gold blue,DIFF,13
+30,g,30g,239,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue pink grey,hue gold blue,DIFF,13
+30,h,30h,240,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue grey pink,hue gold blue,DIFF,13
+31,a,31a,241,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tint gold,the tint gold,SAME,13
+31,b,31b,242,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the gold tint,the tint gold,DIFF,13
+31,c ,31c ,243,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tone pink,the tint gold,DIFF,13
+31,d,31d,244,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the pink tone,the tint gold,DIFF,13
+31,e,31e,245,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan grey gold,tan grey gold,SAME,13
+31,f,31f,246,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan gold grey,tan grey gold,DIFF,13
+31,g,31g,247,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan blue pink,tan grey gold,DIFF,13
+31,h,31h,248,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan pink blue,tan grey gold,DIFF,13
+32,a,32a,249,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the gold tint,the gold tint,SAME,13
+32,b,32b,250,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tint gold,the gold tint,DIFF,13
+32,c ,32c ,251,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the pink tone,the gold tint,DIFF,13
+32,d,32d,252,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tone pink,the gold tint,DIFF,13
+32,e,32e,253,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue gold grey,hue gold grey,SAME,13
+32,f,32f,254,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue grey gold,hue gold grey,DIFF,13
+32,g,32g,255,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue pink blue,hue gold grey,DIFF,13
+32,h,32h,256,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue blue pink,hue gold grey,DIFF,13
+33,a,33a,257,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the color green,the color green,SAME,15
+33,b,33b,258,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the green color,the color green,DIFF,15
+33,c ,33c ,259,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the shade black,the color green,DIFF,15
+33,d,33d,260,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the black shade,the color green,DIFF,15
+33,e,33e,261,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan beige green,tan beige green,SAME,15
+33,f,33f,262,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan green beige,tan beige green,DIFF,15
+33,g,33g,263,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan white black,tan beige green,DIFF,15
+33,h,33h,264,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan black white,tan beige green,DIFF,15
+34,a,34a,265,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the green color,the green color,SAME,15
+34,b,34b,266,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the color green,the green color,DIFF,15
+34,c ,34c ,267,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the black shade,the green color,DIFF,15
+34,d,34d,268,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the shade black,the green color,DIFF,15
+34,e,34e,269,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue green beige,hue green beige,SAME,15
+34,f,34f,270,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue beige green,hue green beige,DIFF,15
+34,g,34g,271,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue black white,hue green beige,DIFF,15
+34,h,34h,272,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue white black,hue green beige,DIFF,15
+35,a,35a,273,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the shade green,the shade green,SAME,15
+35,b,35b,274,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the green shade,the shade green,DIFF,15
+35,c ,35c ,275,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the color black,the shade green,DIFF,15
+35,d,35d,276,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the black color,the shade green,DIFF,15
+35,e,35e,277,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan white green,tan white green,SAME,15
+35,f,35f,278,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan green white,tan white green,DIFF,15
+35,g,35g,279,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan beige black,tan white green,DIFF,15
+35,h,35h,280,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan black beige,tan white green,DIFF,15
+36,a,36a,281,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the green shade,the green shade,SAME,15
+36,b,36b,282,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the shade green,the green shade,DIFF,15
+36,c ,36c ,283,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the black color,the green shade,DIFF,15
+36,d,36d,284,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the color black,the green shade,DIFF,15
+36,e,36e,285,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue green white,hue green white,SAME,15
+36,f,36f,286,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue white green,hue green white,DIFF,15
+36,g,36g,287,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue black beige,hue green white,DIFF,15
+36,h,36h,288,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue beige black,hue green white,DIFF,15
+37,a,37a,289,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the color black,the color black,SAME,15
+37,b,37b,290,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the black color,the color black,DIFF,15
+37,c ,37c ,291,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the shade green,the color black,DIFF,15
+37,d,37d,292,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the green shade,the color black,DIFF,15
+37,e,37e,293,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan beige black,tan beige black,SAME,15
+37,f,37f,294,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan black beige,tan beige black,DIFF,15
+37,g,37g,295,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan white green,tan beige black,DIFF,15
+37,h,37h,296,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan green white,tan beige black,DIFF,15
+38,a,38a,297,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the black color,the black color,SAME,15
+38,b,38b,298,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the color black,the black color,DIFF,15
+38,c ,38c ,299,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the green shade,the black color,DIFF,15
+38,d,38d,300,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the shade green,the black color,DIFF,15
+38,e,38e,301,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue black beige,hue black beige,SAME,15
+38,f,38f,302,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue beige black,hue black beige,DIFF,15
+38,g,38g,303,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue green white,hue black beige,DIFF,15
+38,h,38h,304,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue white green,hue black beige,DIFF,15
+39,a,39a,305,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the shade black,the shade black,SAME,15
+39,b,39b,306,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the black shade,the shade black,DIFF,15
+39,c ,39c ,307,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the color green,the shade black,DIFF,15
+39,d,39d,308,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the green color,the shade black,DIFF,15
+39,e,39e,309,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan white black,tan white black,SAME,15
+39,f,39f,310,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan black white,tan white black,DIFF,15
+39,g,39g,311,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan beige green,tan white black,DIFF,15
+39,h,39h,312,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan green beige,tan white black,DIFF,15
+40,a,40a,313,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the black shade,the black shade,SAME,15
+40,b,40b,314,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the shade black,the black shade,DIFF,15
+40,c ,40c ,315,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the green color,the black shade,DIFF,15
+40,d,40d,316,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the color green,the black shade,DIFF,15
+40,e,40e,317,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue black white,hue black white,SAME,15
+40,f,40f,318,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue white black,hue black white,DIFF,15
+40,g,40g,319,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue green beige,hue black white,DIFF,15
+40,h,40h,320,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue beige green,hue black white,DIFF,15
+41,a,41a,321,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tone blue,the tone blue,SAME,13
+41,b,41b,322,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the blue tone,the tone blue,DIFF,13
+41,c ,41c ,323,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tint grey,the tone blue,DIFF,13
+41,d,41d,324,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the grey tint,the tone blue,DIFF,13
+41,e,41e,325,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan pink blue,tan pink blue,SAME,13
+41,f,41f,326,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan blue pink,tan pink blue,DIFF,13
+41,g,41g,327,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan gold grey,tan pink blue,DIFF,13
+41,h,41h,328,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan grey gold,tan pink blue,DIFF,13
+42,a,42a,329,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the blue tone,the blue tone,SAME,13
+42,b,42b,330,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tone blue,the blue tone,DIFF,13
+42,c ,42c ,331,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the grey tint,the blue tone,DIFF,13
+42,d,42d,332,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tint grey,the blue tone,DIFF,13
+42,e,42e,333,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue blue pink,hue blue pink,SAME,13
+42,f,42f,334,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue pink blue,hue blue pink,DIFF,13
+42,g,42g,335,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue grey gold,hue blue pink,DIFF,13
+42,h,42h,336,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue gold grey,hue blue pink,DIFF,13
+43,a,43a,337,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tint blue,the tint blue,SAME,13
+43,b,43b,338,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the blue tint,the tint blue,DIFF,13
+43,c ,43c ,339,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tone grey,the tint blue,DIFF,13
+43,d,43d,340,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the grey tone,the tint blue,DIFF,13
+43,e,43e,341,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan gold blue,tan gold blue,SAME,13
+43,f,43f,342,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan blue gold,tan gold blue,DIFF,13
+43,g,43g,343,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan pink grey,tan gold blue,DIFF,13
+43,h,43h,344,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan grey pink,tan gold blue,DIFF,13
+44,a,44a,345,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the blue tint,the blue tint,SAME,13
+44,b,44b,346,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tint blue,the blue tint,DIFF,13
+44,c ,44c ,347,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the grey tone,the blue tint,DIFF,13
+44,d,44d,348,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tone grey,the blue tint,DIFF,13
+44,e,44e,349,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue blue gold,hue blue gold,SAME,13
+44,f,44f,350,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue gold blue,hue blue gold,DIFF,13
+44,g,44g,351,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue grey pink,hue blue gold,DIFF,13
+44,h,44h,352,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue pink grey,hue blue gold,DIFF,13
+45,a,45a,353,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tone grey,the tone grey,SAME,13
+45,b,45b,354,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the grey tone,the tone grey,DIFF,13
+45,c ,45c ,355,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tint blue,the tone grey,DIFF,13
+45,d,45d,356,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the blue tint,the tone grey,DIFF,13
+45,e,45e,357,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan pink grey,tan pink grey,SAME,13
+45,f,45f,358,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan grey pink,tan pink grey,DIFF,13
+45,g,45g,359,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan gold blue,tan pink grey,DIFF,13
+45,h,45h,360,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan blue gold,tan pink grey,DIFF,13
+46,a,46a,361,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the grey tone,the grey tone,SAME,13
+46,b,46b,362,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tone grey,the grey tone,DIFF,13
+46,c ,46c ,363,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the blue tint,the grey tone,DIFF,13
+46,d,46d,364,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tint blue,the grey tone,DIFF,13
+46,e,46e,365,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue grey pink,hue grey pink,SAME,13
+46,f,46f,366,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue pink grey,hue grey pink,DIFF,13
+46,g,46g,367,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue blue gold,hue grey pink,DIFF,13
+46,h,46h,368,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue gold blue,hue grey pink,DIFF,13
+47,a,47a,369,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tint grey,the tint grey,SAME,13
+47,b,47b,370,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the grey tint,the tint grey,DIFF,13
+47,c ,47c ,371,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tone blue,the tint grey,DIFF,13
+47,d,47d,372,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the blue tone,the tint grey,DIFF,13
+47,e,47e,373,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan gold grey,tan gold grey,SAME,13
+47,f,47f,374,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan grey gold,tan gold grey,DIFF,13
+47,g,47g,375,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan pink blue,tan gold grey,DIFF,13
+47,h,47h,376,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan blue pink,tan gold grey,DIFF,13
+48,a,48a,377,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the grey tint,the grey tint,SAME,13
+48,b,48b,378,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tint grey,the grey tint,DIFF,13
+48,c ,48c ,379,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the blue tone,the grey tint,DIFF,13
+48,d,48d,380,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tone blue,the grey tint,DIFF,13
+48,e,48e,381,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue grey gold,hue grey gold,SAME,13
+48,f,48f,382,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue gold grey,hue grey gold,DIFF,13
+48,g,48g,383,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue blue pink,hue grey gold,DIFF,13
+48,h,48h,384,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue pink blue,hue grey gold,DIFF,13
+49,a,49a,385,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the color beige,the color beige,SAME,15
+49,b,49b,386,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the beige color,the color beige,DIFF,15
+49,c ,49c ,387,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the shade white,the color beige,DIFF,15
+49,d,49d,388,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the white shade,the color beige,DIFF,15
+49,e,49e,389,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan green beige,tan green beige,SAME,15
+49,f,49f,390,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan beige green,tan green beige,DIFF,15
+49,g,49g,391,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan black white,tan green beige,DIFF,15
+49,h,49h,392,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan white black,tan green beige,DIFF,15
+50,a,50a,393,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the beige color,the beige color,SAME,15
+50,b,50b,394,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the color beige,the beige color,DIFF,15
+50,c ,50c ,395,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the white shade,the beige color,DIFF,15
+50,d,50d,396,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the shade white,the beige color,DIFF,15
+50,e,50e,397,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue beige green,hue beige green,SAME,15
+50,f,50f,398,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue green beige,hue beige green,DIFF,15
+50,g,50g,399,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue white black,hue beige green,DIFF,15
+50,h,50h,400,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue black white,hue beige green,DIFF,15
+51,a,51a,401,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the shade beige,the shade beige,SAME,15
+51,b,51b,402,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the beige shade,the shade beige,DIFF,15
+51,c ,51c ,403,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the color white,the shade beige,DIFF,15
+51,d,51d,404,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the white color,the shade beige,DIFF,15
+51,e,51e,405,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan black beige,tan black beige,SAME,15
+51,f,51f,406,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan beige black,tan black beige,DIFF,15
+51,g,51g,407,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan green white,tan black beige,DIFF,15
+51,h,51h,408,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan white green,tan black beige,DIFF,15
+52,a,52a,409,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the beige shade,the beige shade,SAME,15
+52,b,52b,410,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the shade beige,the beige shade,DIFF,15
+52,c ,52c ,411,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the white color,the beige shade,DIFF,15
+52,d,52d,412,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the color white,the beige shade,DIFF,15
+52,e,52e,413,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue beige black,hue beige black,SAME,15
+52,f,52f,414,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue black beige,hue beige black,DIFF,15
+52,g,52g,415,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue white green,hue beige black,DIFF,15
+52,h,52h,416,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue green white,hue beige black,DIFF,15
+53,a,53a,417,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the color white,the color white,SAME,15
+53,b,53b,418,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the white color,the color white,DIFF,15
+53,c ,53c ,419,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the shade beige,the color white,DIFF,15
+53,d,53d,420,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the beige shade,the color white,DIFF,15
+53,e,53e,421,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan green white,tan green white,SAME,15
+53,f,53f,422,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan white green,tan green white,DIFF,15
+53,g,53g,423,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan black beige,tan green white,DIFF,15
+53,h,53h,424,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan beige black,tan green white,DIFF,15
+54,a,54a,425,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the white color,the white color,SAME,15
+54,b,54b,426,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the color white,the white color,DIFF,15
+54,c ,54c ,427,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the beige shade,the white color,DIFF,15
+54,d,54d,428,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the shade beige,the white color,DIFF,15
+54,e,54e,429,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue white green,hue white green,SAME,15
+54,f,54f,430,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue green white,hue white green,DIFF,15
+54,g,54g,431,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue beige black,hue white green,DIFF,15
+54,h,54h,432,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue black beige,hue white green,DIFF,15
+55,a,55a,433,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the shade white,the shade white,SAME,15
+55,b,55b,434,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the white shade,the shade white,DIFF,15
+55,c ,55c ,435,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the color beige,the shade white,DIFF,15
+55,d,55d,436,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the beige color,the shade white,DIFF,15
+55,e,55e,437,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan black white,tan black white,SAME,15
+55,f,55f,438,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan white black,tan black white,DIFF,15
+55,g,55g,439,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan green beige,tan black white,DIFF,15
+55,h,55h,440,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan beige green,tan black white,DIFF,15
+56,a,56a,441,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the white shade,the white shade,SAME,15
+56,b,56b,442,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the shade white,the white shade,DIFF,15
+56,c ,56c ,443,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the beige color,the white shade,DIFF,15
+56,d,56d,444,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the color beige,the white shade,DIFF,15
+56,e,56e,445,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue white black,hue white black,SAME,15
+56,f,56f,446,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue black white,hue white black,DIFF,15
+56,g,56g,447,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue beige green,hue white black,DIFF,15
+56,h,56h,448,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue green beige,hue white black,DIFF,15
+57,a,57a,449,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tone pink,the tone pink,SAME,13
+57,b,57b,450,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the pink tone,the tone pink,DIFF,13
+57,c ,57c ,451,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tint gold,the tone pink,DIFF,13
+57,d,57d,452,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the gold tint,the tone pink,DIFF,13
+57,e,57e,453,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan blue pink,tan blue pink,SAME,13
+57,f,57f,454,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan pink blue,tan blue pink,DIFF,13
+57,g,57g,455,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan grey gold,tan blue pink,DIFF,13
+57,h,57h,456,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan gold grey,tan blue pink,DIFF,13
+58,a,58a,457,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the pink tone,the pink tone,SAME,13
+58,b,58b,458,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tone pink,the pink tone,DIFF,13
+58,c ,58c ,459,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the gold tint,the pink tone,DIFF,13
+58,d,58d,460,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tint gold,the pink tone,DIFF,13
+58,e,58e,461,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue pink blue,hue pink blue,SAME,13
+58,f,58f,462,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue blue pink,hue pink blue,DIFF,13
+58,g,58g,463,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue gold grey,hue pink blue,DIFF,13
+58,h,58h,464,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue grey gold,hue pink blue,DIFF,13
+59,a,59a,465,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tint pink,the tint pink,SAME,13
+59,b,59b,466,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the pink tint,the tint pink,DIFF,13
+59,c ,59c ,467,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tone gold,the tint pink,DIFF,13
+59,d,59d,468,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the gold tone,the tint pink,DIFF,13
+59,e,59e,469,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan grey pink,tan grey pink,SAME,13
+59,f,59f,470,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan pink grey,tan grey pink,DIFF,13
+59,g,59g,471,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan blue gold,tan grey pink,DIFF,13
+59,h,59h,472,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan gold blue,tan grey pink,DIFF,13
+60,a,60a,473,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the pink tint,the pink tint,SAME,13
+60,b,60b,474,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tint pink,the pink tint,DIFF,13
+60,c ,60c ,475,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the gold tone,the pink tint,DIFF,13
+60,d,60d,476,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tone gold,the pink tint,DIFF,13
+60,e,60e,477,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue pink grey,hue pink grey,SAME,13
+60,f,60f,478,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue grey pink,hue pink grey,DIFF,13
+60,g,60g,479,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue gold blue,hue pink grey,DIFF,13
+60,h,60h,480,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue blue gold,hue pink grey,DIFF,13
+61,a,61a,481,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tone gold,the tone gold,SAME,13
+61,b,61b,482,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the gold tone,the tone gold,DIFF,13
+61,c ,61c ,483,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tint pink,the tone gold,DIFF,13
+61,d,61d,484,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the pink tint,the tone gold,DIFF,13
+61,e,61e,485,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan blue gold,tan blue gold,SAME,13
+61,f,61f,486,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan gold blue,tan blue gold,DIFF,13
+61,g,61g,487,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan grey pink,tan blue gold,DIFF,13
+61,h,61h,488,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan pink grey,tan blue gold,DIFF,13
+62,a,62a,489,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the gold tone,the gold tone,SAME,13
+62,b,62b,490,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tone gold,the gold tone,DIFF,13
+62,c ,62c ,491,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the pink tint,the gold tone,DIFF,13
+62,d,62d,492,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tint pink,the gold tone,DIFF,13
+62,e,62e,493,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue gold blue,hue gold blue,SAME,13
+62,f,62f,494,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue blue gold,hue gold blue,DIFF,13
+62,g,62g,495,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue pink grey,hue gold blue,DIFF,13
+62,h,62h,496,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue grey pink,hue gold blue,DIFF,13
+63,a,63a,497,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Noun-Noun,the tint gold,the tint gold,SAME,13
+63,b,63b,498,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Noun-Noun,the gold tint,the tint gold,DIFF,13
+63,c ,63c ,499,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Noun-Noun,the tone pink,the tint gold,DIFF,13
+63,d,63d,500,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Noun-Noun,the pink tone,the tint gold,DIFF,13
+63,e,63e,501,List_Identity,List,Identity,SameWords,SameStruc,Noun-Noun,tan grey gold,tan grey gold,SAME,13
+63,f,63f,502,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Noun-Noun,tan gold grey,tan grey gold,DIFF,13
+63,g,63g,503,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Noun-Noun,tan blue pink,tan grey gold,DIFF,13
+63,h,63h,504,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Noun-Noun,tan pink blue,tan grey gold,DIFF,13
+64,a,64a,505,Phrase_Identity,Phrase,Identity,SameWords,SameStruc,Adj-Noun,the gold tint,the gold tint,SAME,13
+64,b,64b,506,Phrase_DiffOrder,Phrase,DiffOrder,SameWords,DiffStruc,Adj-Noun,the tint gold,the gold tint,DIFF,13
+64,c ,64c ,507,Phrase_DiffWords,Phrase,DiffWords,DiffWords,SameStruc,Adj-Noun,the pink tone,the gold tint,DIFF,13
+64,d,64d,508,Phrase_DiffBoth,Phrase,DiffBoth,DiffWords,DiffStruc,Adj-Noun,the tone pink,the gold tint,DIFF,13
+64,e,64e,509,List_Identity,List,Identity,SameWords,SameStruc,Adj-Noun,hue gold grey,hue gold grey,SAME,13
+64,f,64f,510,List_DiffOrder,List,DiffOrder,SameWords,DiffStruc,Adj-Noun,hue grey gold,hue gold grey,DIFF,13
+64,g,64g,511,List_DiffWords,List,DiffWords,DiffWords,SameStruc,Adj-Noun,hue pink blue,hue gold grey,DIFF,13
+64,h,64h,512,List_DiffBoth,List,DiffBoth,DiffWords,DiffStruc,Adj-Noun,hue blue pink,hue gold grey,DIFF,13

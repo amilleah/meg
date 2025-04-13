@@ -1,0 +1,56 @@
+{
+  "experiment": {
+    "name": "HELLOWORLD",
+    "description": "An experiment on hello world!",
+    "dir_path": "experiments/psychopy/hello_world (template)",
+    "stimuli": {
+      "full": "stimuli.csv"
+    }
+  },
+  "blocks": {
+  "count": 1,
+  "trials_per_block": 4,
+  "shuffle_trials": true
+  },
+  "practice": {
+    "enabled": false
+  },
+  "display": {
+    "toggle_diode": {"enabled": true},
+    "fullscreen": false,
+    "background_color": [127, 127, 127],
+    "text_color": [255, 255, 255]
+  },
+  "send_triggers": {
+    "enabled": true,
+    "map": {
+      "all": "ch160"
+    }
+  },
+  "timing": {
+    "fixation_ON_ms": 200,
+    "fixation_OFF_ms": 200,
+    "prime_ON_ms": 300,
+    "prime_OFF_ms": 500,
+    "target_ON_ms": 300,
+    "target_OFF": "Until Response",
+    "jitter_min": 600,
+    "jitter_max": 800,
+    "use_frame_timing": true
+  },
+  "text": {
+    "setup": "Please be patient as we set up the experiment...",
+    "instructions": "This is a task with strings of words. They will be presented very quickly one after the other. \n\nYour task is to determine if the strings are true or false. \n\nPress '1' with your left middle finger if they are FALSE, and '2' with your left index finger if they are TRUE.\n\nThe experiment will take approximately 2 minutes. You will be able to take breaks at set times during the experiment. \nWhen you are ready, press either '1' or '2' to continue.",
+    "end": "The experiment is now over! Thank you for your participation! \nPlease sit tight while we save the recording..."
+  },
+  "keys": {
+    "setup_proceed": ["s"],
+    "instruction_proceed": ["1", "2"],
+    "response": ["1", "2", "p", "q"],
+    "end_proceed": ["s"]
+  },
+  "debug": {
+    "verbose": true,
+    "auto_respond": false
+  }
+}
