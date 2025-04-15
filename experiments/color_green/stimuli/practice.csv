@@ -1,6 +1,0 @@
-﻿set,target_frame,prime,target,match_manip,correct_answer,string_length
-1,Noun-Noun,the ice cream,the ice cream,SAME,2,13
-2,Noun-Noun,a fire station,a station fire,DIFF,1,14
-3,Non-Comp,nice high school,cool high school,DIFF,1,16
-4,Adj-Noun,this real estate,this huge state,DIFF,1,15
-5,Non-Comp,cake berry the,cake berry the,SAME,2,14
