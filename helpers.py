@@ -3,7 +3,7 @@ script: helpers.py
 last-updated: 2025-08
 author: amilleah
 project: github.com/amilleah/meg
-purpose: constants, helper functions for applying filtering, ICA, and epoching to raw MEG data
+purpose: constants, helper functions for applying filtering, ICA, and epoching, source estimation to MEG data
 '''
 
 
