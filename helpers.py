@@ -1,5 +1,5 @@
 '''
-script: preproc.ipynb
+script: helpers.py
 last-updated: 2025-08
 author: amilleah
 project: github.com/amilleah/meg
