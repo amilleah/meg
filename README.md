@@ -5,7 +5,7 @@ Pipeline for KIT-NYU MEG data: preprocessing, source localization, and statistic
 ## Analysis Pipeline
 
 ### Preprocessing Steps
-1. **Filtering**: 1-40 Hz bandpass filter
+1. **Filtering**: 1-40 Hz filter (method='iir')
 2. **Bad Channel Interpolation**: Spherical spline interpolation
 3. **ICA**: FastICA with 95% variance explained
 4. **Epoching**: Event-locked time windows with metadata
