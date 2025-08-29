@@ -1,82 +1,82 @@
-# MEG Data Processing Pipeline
+## MEG data processing pipeline
 
 Pipeline for KIT-NYU MEG data: preprocessing, source localization, and statistical testing.
 
-## Analysis Pipeline
+### what's included
 
-### Preprocessing Steps
-1. **Filtering**: 1-40 Hz filter (method='iir')
-2. **Bad Channel Interpolation**: Spherical spline interpolation
-3. **ICA**: FastICA with 95% variance explained
-4. **Epoching**: Event-locked time windows with metadata
-5. **Artifact Rejection**: Amplitude-based epoch rejection (3 pT for magnetometers)
+```
+#--- data handling
+preproc.ipynb                       # general MEG preprocessing script
+rmANOVA.ipynb                       # uses condition mean source estimates
 
-### Source Localization
-1. **Source Space**: ico-4 surface source space
-2. **Forward Model**: Boundary Element Method (BEM)
-3. **Covariance**: Pre-stimulus noise covariance (-100 to 0 ms)
-4. **Inverse Solution**: Minimum norm estimation with depth weighting
-5. **Morphing**: Transform to fsaverage template
-
-### Statistical Analysis
-1. **ROI Definition**: Brodmann areas from PALS atlas
-2. **Time Window**: Configurable analysis window
-3. **Statistics**: Repeated measures ANOVA
-4. **Clustering**: Spatio-temporal cluster permutation test
-5. **Correction**: Family-wise error rate control
-
-## Usage
-
-### Installation
-
-```bash
-python -m venv meg_env
-source meg_env/bin/activate
-pip install -r requirements.txt
+#--- miscellaneous
+README.md                           # this document
+helpers.py                          # functions for data handling and analysis
+pyproject.toml                      # Python 3.11 and install requirements
 ```
 
-### Configuration and helper functions (`helpers.py`)
-Used for preprocessing and source analysis 
+### how to install
 
-### Preprocessing (`preproc.ipynb`)
-Processes raw MEG data through filtering, artifact removal, and epoching
+From the meg/ directory, you need a Python 3.11 env and requirements as defined in the `pyproject.toml`. 
 
-### Source Analysis (`rmANOVA.ipynb`)
-Performs source localization and statistical analysis
+Note: Python 3.11 is for eelbrain compatibility (used for `mne-kit-gui`, epoch rejection via gui, and single-trial regression analyses), preprocessing and rmANOVA only use MNE, but my workflow involves both interchangeably.
 
-**Source Parameters:**
-- SNR: 3.0 (λ² = 0.111)
-- Method: dynamic Statistical Parametric Mapping (dSPM)
-- Source space: ico-4 (2562 vertices per hemisphere)
+```
+python3.11 -m venv .venv   
+source .venv/bin/activate
 
-## Output
+pip install .
+```
 
-### Preprocessed Data
-- `*-ica-raw.fif`: ICA-cleaned continuous data
-- `*-ica-epo.fif`: Epoched data with metadata
-- `*-cov.fif`: Noise covariance matrix
+### preprocessing workflow
 
-### Source Data
-- `*_condition_dSPM`: Source time courses (STC files)
-- `*-fwd.fif`: Forward solution
-- `*-inv.fif`: Inverse model
+These scripts assume steps 1-3 are done through NYU's MEG system using `.sqd` recordings. 
 
-### Statistical Results
-- Cluster statistics (F-values, p-values)
-- Significant spatio-temporal clusters
-- Pickled results (`.pkl`) for further analysis and visualization
+1. 157-channel acquisition from KIT-NYU MEG system
+2. Noise-reduction using CALM method (Adachi et al., 2001) in KIT-NYU MEG software application
+3. `mne kit2fiff` GUI or command line to coregister fiducials and digitization with MEG recording 
 
-## Prerequisites
+The following steps use scripts in `meg/` and rely on MNE-compatible `.fif` format. For a more detailed description, you can look on our [lab wiki](https://stefanpophristic.github.io/wiki/).
 
-Before running this pipeline, ensure you have:
-1. Converted KIT `.sqd` files to MNE-compatible `.fif` format
-2. Applied CALM noise reduction
-3. Performed coregistration with anatomical MRI
-4. Set up FreeSurfer subjects directory
+4. 1-40 Hz filter (method='iir')
+5. Bad channel interpolation and data annotation
+6. ICA (method='fastica', n_components = 0.95) 
 
-## Citation
+ICA components account for 95% of explained variance in sensor data.
+
+7. Event-locked time windows with event metadata
+8. Amplitude-based epoch rejection (3 pT for magnetometers), annotations also rejected
+
+The following steps move from sensor space (MEG recording) to source space (source estimates of brain activity). These next steps assume you also have an MRI coregistered to the MEG data. This can also be with a template brain (like `fsaverage`). You need a Boundary Element Model (BEM) of your subject to proceed. 
+
+9. Icosahedron (ico-4) surface source space
+10. Forward model computation using a BEM of skull/brain boundary (one conduction layer for MEG)
+11. Noise covariance matrix calculated from 100 ms of prestimulus blank screen (-100ms to 0 ms)
+12. Inverse solution using minimum norm estimation with depth weighting of signal (method='dSPM')
+13. Morphing subject data to fsaverage template space for comparison
+
+Once the subject has an inverse solution, you can create evoked responses (by condition, by trial, by session) and save them as source estimates of brain activity, which can be used for statistical analysis.
+
+### statistical analysis
+
+We frequently conduct **spatiotemporal clustering** to MEG source estimate data. The MNE functions are interchangable for sensor and source data. The shape of the data is usually `(n_obs, n_time, n_space)`, where observations (obs) are subjects, conditions, or trials.
+
+Ideally, you'd motivate your searches. You can change the spatial and time extent of the search. 
+
+1. ROI Definition using Brodmann areas from PALS atlas as examples
+2. Configurable analysis window
+
+#### rmANOVA
+
+1. Read source estimate data by condition into object X
+2. Spatiotemporal clustering permutation test
+3. rmANOVA on spatial/time extent
+4. Visualization of significant clusters
+
+### citation
 
 If you use this pipeline, please cite:
-- CALM Noise Reduction: Adachi, Y., Shimogawara, M., Higuchi, M., Haruta, Y., & Ochiai, M. (2001)
-- MNE-Python: Gramfort et al. (2013, 2014)
-- Cluster-based permutation testing: Maris & Oostenveld (2007)
+
+* CALM Noise Reduction: Adachi, Y., Shimogawara, M., Higuchi, M., Haruta, Y., & Ochiai, M. (2001)
+* MNE-Python: Gramfort et al. (2013, 2014)
+* Cluster-based permutation testing: Maris & Oostenveld (2007)

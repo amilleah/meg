@@ -1,0 +1,17 @@
+[project]
+name = "meg"
+version = "0.1.0"
+description = "used for MEG preprocessing and analysis."
+readme = "README.md"
+requires-python = "==3.11.*"
+dependencies = [
+    "eelbrain==0.39.11",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.9.0",
+    "mne>=1.8.0",
+    "numpy>=1.26.0",
+    "pandas>=2.2.0",
+    "pyqt6>=6.9.1",
+    "scikit-learn>=1.5.0",
+    "scipy>=1.14.0",
+]
